@@ -9,27 +9,33 @@ export class CheckPage implements OnInit {
 
   data = [
     {
-      name: 'primary',
+      color: 'primary',
+      name: 'Checkbox 1',
       selected: false,
     },
     {
-      name: 'secondary',
+      color: 'secondary',
+      name: 'Checkbox 2',
       selected: true,
     },
     {
-      name: 'tertiary',
+      color: 'tertiary',
+      name: 'Checkbox 3',
       selected: false,
     },
     {
-      name: 'success',
+      color: 'success',
+      name: 'Checkbox 4',
       selected: true,
     },
     {
-      name: 'danger',
+      color: 'danger',
+      name: 'Checkbox 5',
       selected: true,
     },
     {
-      name: 'warning',
+      color: 'warning',
+      name: 'Checkbox 6',      
       selected: false,
     },
   ]
