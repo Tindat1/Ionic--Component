@@ -4,19 +4,19 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { InicioPageRoutingModule } from './inicio-routing.module';
+import { GridPageRoutingModule } from './grid-routing.module';
 
-import { InicioPage } from './inicio.page';
+import { GridPage } from './grid.page';
 import { ComponentsModule } from '../../components/components.module';
-
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    InicioPageRoutingModule,
+    GridPageRoutingModule,
+    ComponentsModule,
   ],
-  declarations: [InicioPage]
+  declarations: [GridPage]
 })
-export class InicioPageModule {}
+export class GridPageModule {}
