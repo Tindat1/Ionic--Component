@@ -28,3 +28,9 @@
 .rojo, .rojo .sc-ion-action-sheet-md{
     color: red !important;
 }
+
+ion-loading.custom-loading {
+    --background: #e3edff;
+    --spinner-color: #1c6dff;
+
+  }
